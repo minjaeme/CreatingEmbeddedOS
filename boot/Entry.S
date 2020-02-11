@@ -24,7 +24,7 @@
 	vector_end:
 
 	reset_handler:
-		LDR		R0,	=0x1000000
+		LDR		R0,	=0x10000000
 		LDR		R1,	[R0]
 
 	dummy_handler:
