@@ -15,8 +15,6 @@ void Hal_uart_init(void)
 
 void Hal_uart_put_char(uint8_t ch)
 {
-    while(Uart->uartfr.bits.TXFF)
-    {
-        Uart->uartdr.all = (ch & 0xFF);
-    }
+    while(Uart->uartfr.bits.TXFF);
+    Uart->uartdr.all = (ch & 0xFF);
 }
