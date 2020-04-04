@@ -2,6 +2,11 @@
 #include "HalUart.h"
 #include "stdio.h"
 
+#define NULL            0
+#define PRINTF_BUF_LEN  1024
+
+static char printf_buf[PRINTF_BUF_LEN];   // 1KB
+
 uint32_t putstr(const char* s)
 {
     uint32_t c = 0;
