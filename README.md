@@ -1,7 +1,4 @@
-# CreatingEmbeddedOS
-다음 책을 읽으면서 개인적으로 코드를 작성하는 Repo입니다.
-![image](https://image.aladin.co.kr/product/22159/34/cover500/8966262546_1.jpg)
+# Navilos
+Step by step RTOS for study embedded FW programming.
 
-## 참고
-저자 깃허브 입니다.
-https://github.com/navilera/Navilos
+나빌로스는 임베디드 펌웨어 프로그래밍을 공부하기 위해 제작한 작고 간단한 RTOS입니다.
